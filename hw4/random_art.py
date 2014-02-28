@@ -9,6 +9,12 @@ from random import randint
 from math import cos, sin, pi
 import Image
 
+## SS: You did not include a remap_interval() method, as specified by the hw assignment
+
+## SS: Your build_random_function outputs functions like: ['x', 'in_1', 'in_2']
+##     The assignment wanted functions like: ["prod",["x"],["y"]]
+##     ['x', 'in_1', 'in_2'] I believe should be represented simply as ["x"], I don't understand
+##     why you used in_1 and in_2
 def build_random_function(min_depth, max_depth):
     "Input: minimum and maximum depths; Ouput: random function made up of products, sines, cosines, cubes and averages of two variables in list form"
 
@@ -50,6 +56,10 @@ def evaluate_random_function(f, x, y):
             return evaluate_random_function(f[2],x,y)
         else: print 'Invalid function'
     else: print 'Invalid type'
+
+## SS: It doesn't look like you made your conversions correctly, because I was seeing (R,B,G) tuples
+##     looking like: (254, 143, -13911), (255, 147, 15382), (254, 149, -1124), which threw an error
+##     once when I ran it and the G value exceeded the expected bounds
 
 l=400
 w=400

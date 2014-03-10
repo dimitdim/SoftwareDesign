@@ -9,8 +9,6 @@ from random import randint
 from math import cos, sin, pi
 import Image
 
-## SS: You did not include a remap_interval() method, as specified by the hw assignment
-
 ## SS: Your build_random_function outputs functions like: ['x', 'in_1', 'in_2']
 ##     The assignment wanted functions like: ["prod",["x"],["y"]]
 ##     ['x', 'in_1', 'in_2'] I believe should be represented simply as ["x"], I don't understand

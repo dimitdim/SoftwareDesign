@@ -2,6 +2,16 @@ from pattern.web import Twitter
 from pattern.en import sentiment
 import matplotlib.pyplot as mpl
 
+"""
+SS: Good job guys! Nice graphs and your results are easy to understand. 
+
+    With your code, it would have been nice to have more modularity with your code (containment
+    within functions). 
+
+    It would have been nice to see you guys shoot a little higher with a goal for this assigment, 
+    but you did do an excellent job executing this one. 
+"""
+
 # set buzzwords (case insensitive)
 words=[["Leo","DiCaprio","Leonardo"],["Christian","Bale"],["Matthew","McConaughey"],["Ejiofor","Chiwetel"],["Ellen","DeGeneres"],["Emma","Watson"],["Amy","Adams"]]
 #words=[["12","Years","Slave"],["Wolf","Wall","Street"],["Gravity"],["American","Hustle"],["Nebraska"],["Dallas","Buyers","Club"],["Philomena"]]
@@ -9,7 +19,7 @@ words_friendly=['Leonardo DiCaprio','Christian Bale','Matther McConaughey','Ejio
 #words_friendly=['12 Years of Slave','The Wolf of Wall Street','Gravity','American Hustle','Nebraska','Dallas Buyers Club','Philomena']
 
 # initialize some lists
-#tweets=[]
+# tweets=[]
 freq=[]
 sent=[]
 avgf=[]
@@ -17,8 +27,8 @@ avgs=[]
 time=[]
 
 # acquire 100 evenly spaced clusters of up to 100 tweets each
-#T=Twitter(language="en")
-#for i in range (100):
+# T=Twitter(language="en")
+# for i in range (100):
 #    cluster=[]
 #    for tweet in T.search("#oscars".lower(),start=(440275000000000000-500000000000*i),count=1000,cached=False):
 #        cluster.append(tweet)
@@ -46,6 +56,8 @@ for buzz in words:
 # match clusters to time
 for n in range(len(tweets)):
     time.append(float(tweets[n][0].date[11:13])+float(tweets[n][0].date[14:16])/60+float(tweets[n][0].date[17:19])/360-12.0)
+    ## SS: when I ran your code, I got the following error on the line above (before I had a searchengine limit error :) ):
+    ##    IndexError: list index out of range
 
 # smooth frequency data by finding averages over 5 clusters and graph it
 for n in range(len(freq)):

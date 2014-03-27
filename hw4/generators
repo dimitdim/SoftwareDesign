@@ -1,0 +1,9 @@
+2
+(['cube', ['prod', 'in_1', 'in_2'], ['cos_pi', 'in_1', 'in_2']], ['y', ['prod', 'in_2', 'in_2'], ['sin_pi', 'in_2', 'in_2']], ['cube', ['prod', 'in_1', 'in_1'], ['x', 'in_1', 'in_1']])
+3
+(['cube', ['y', ['cos_pi', 'in_2', 'in_1'], ['y', 'in_2', 'in_1']], ['average', ['cos_pi', 'in_1', 'in_2'], ['sin_pi', 'in_1', 'in_2']]], ['prod', ['cube', ['cos_pi', 'in_2', 'in_1'], ['sin_pi', 'in_1', 'in_2']], ['cos_pi', ['prod', 'in_1', 'in_2'], ['y', 'in_1', 'in_2']]], ['cos_pi', ['y', ['y', 'in_2', 'in_2'], ['y', 'in_2', 'in_1']], ['y', ['y', 'in_2', 'in_1'], ['prod', 'in_2', 'in_1']]])
+4
+(['cube', ['sin_pi', ['y', 'in_2', 'in_2'], ['cos_pi', 'in_2', 'in_1']], ['x', ['cos_pi', 'in_2', 'in_1'], ['x', 'in_1', 'in_2']]], ['y', ['prod', ['prod', 'in_1', 'in_1'], ['prod', 'in_2', 'in_1']], ['average', ['y', 'in_1', 'in_1'], ['sin_pi', 'in_1', 'in_2']]], ['cos_pi', ['y', ['cube', 'in_1', 'in_1'], ['average', 'in_1', 'in_2']], ['cos_pi', ['y', 'in_1', 'in_1'], ['y', 'in_2', 'in_1']]])
+5
+(['average', ['average', ['cos_pi', ['prod', 'in_1', 'in_2'], ['cos_pi', 'in_2', 'in_1']], ['x', ['average', 'in_2', 'in_2'], ['prod', 'in_1', 'in_2']]], ['average', ['x', ['y', 'in_1', 'in_2'], ['cube', 'in_1', 'in_1']], ['cos_pi', ['y', 'in_2', 'in_1'], ['cos_pi', 'in_1', 'in_1']]]], ['sin_pi', ['prod', ['cube', ['prod', 'in_2', 'in_2'], ['x', 'in_1', 'in_2']], ['cos_pi', ['prod', 'in_2', 'in_1'], ['average', 'in_2', 'in_1']]], ['prod', ['prod', ['x', 'in_1', 'in_2'], ['cos_pi', 'in_2', 'in_1']], ['y', ['y', 'in_1', 'in_2'], ['cube', 'in_2', 'in_1']]]], ['x', ['prod', ['average', ['y', 'in_1', 'in_2'], ['cube', 'in_2', 'in_2']], ['sin_pi', ['cos_pi', 'in_1', 'in_2'], ['cube', 'in_2', 'in_2']]], ['cos_pi', ['cube', ['cos_pi', 'in_2', 'in_1'], ['y', 'in_1', 'in_1']], ['cube', ['x', 'in_2', 'in_1'], ['prod', 'in_2', 'in_2']]]])
+
